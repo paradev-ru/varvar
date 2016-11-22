@@ -45,7 +45,7 @@ case "$1" in
         status_of_proc -p "$VARVAR_SSD_PIDFILE" "$VARVAR" "$BASE"
         ;;
     *)
-        echo "Usage: service docker {start|stop|restart|status}"
+        echo "Usage: service varvar {start|stop|restart|status}"
         exit 1
         ;;
 esac
